@@ -1,0 +1,126 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+.main-menu.menu-light .navigation > li ul .active {
+	/* background: linear-gradient(118deg, #eaecff, rgba(235, 233, 255, 0.7)) !important; */
+	background: #fff !important;
+	box-shadow: 0 0 0px 0px #fff !important;
+	color: #443d91 !important;
+	font-weight: bold !important;
+  }
+  
+  .main-menu.menu-light .navigation > li ul .active > a {
+	/* color: #fff; */
+	color: #443d91 !important;
+  }
+  
+  .main-menu.menu-light .navigation > li > a {
+	margin: 0 15px 0px 3px !important;
+  }
+  
+  .main-menu.menu-light .navigation > li > ul li:not(.has-sub) {
+	margin: 0px 15px 0px 15px !important;
+  }
+  
+  .main-menu.menu-light .navigation > li > ul li:first-of-type {
+	margin-top: 3px !important;
+  }
+  
+  .header-navbar.navbar-shadow {
+	box-shadow: none !important;
+  }
+  
+  .vertical-layout.vertical-menu-modern.menu-expanded .main-menu {
+	background: #443d91 !important;
+  }
+  
+  .main-menu.menu-light .navigation {
+	background: #443d91 !important;
+  }
+  
+  .main-menu.menu-light .navigation > li.active > a {
+	background: #fff !important;
+	box-shadow: 0 0 3px 1px rgb(69 62 143) !important;
+	color: #4a448f !important;
+	font-weight: bold !important;
+  }
+  
+  .main-menu.menu-light .navigation li a {
+	color: #ffffff !important;
+  }
+  
+  .main-menu .navbar-header .navbar-brand .brand-text {
+	color: #ffffff !important;
+  }
+  
+  .navbar-light {
+	background: #443d91 !important;
+  }
+  
+  .header-navbar.floating-nav {
+	margin: 0.3rem auto 0 !important;
+  }
+  
+  .header-navbar .navbar-container ul.navbar-nav li > a.nav-link {
+	color: #ffffff !important;
+  }
+  
+  html .content.app-content {
+	padding: calc(2rem + 2.2rem + 1.3rem) 2rem 0 !important;
+  }
+  
+  .main-menu .shadow-bottom {
+	background: linear-gradient(#443d91 6%, rgba(255, 255, 255, 0.11) 9%, rgba(255, 255, 255, 0)) !important;
+  }
+  
+  .navbar-floating .header-navbar-shadow {
+	background: none !important;
+	height: 67px !important;
+  }
+  
+  .main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a {
+	background: #fff !important;
+	border-radius: 6px;
+	color: #4a448f !important;
+	font-weight: bold !important;
+  
+  }
+  
+  .main-menu.menu-light .navigation > li > ul li:first-of-type {
+	margin-top: 3px !important;
+  }
+  
+  li.nav-item.has-sub.open {
+	margin-top: 3px !important;
+  }
+  
+  .main-menu.menu-light .navigation > li ul li > a {
+	padding: 8px 15px 8px 20px !important;
+  }
+  
+  .main-menu .navbar-header {
+	padding: 0rem 0rem 0rem 0.54rem;
+  }
+  
+  .main-menu .navbar-header .navbar-brand {
+	margin-top: 10px !important;
+  }
+  
+  .badge.badge-light-danger {
+	background-color: rgb(115 103 240) !important;
+	  color: #ffffff !important;
+  }
+
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background-color: rgb(115 103 240) !important;
+  }

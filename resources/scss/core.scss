@@ -1,0 +1,105 @@
+
+@import './base/bootstrap';
+@import './base/bootstrap-extended';
+@import './base/colors';
+@import './base/components';
+::-moz-selection { /* Code for Firefox */
+    color: #FFFFFF;
+    background: #7367f0;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #7367f0;
+}
+.main-menu.menu-light .navigation > li ul .active {
+    background: linear-gradient(118deg, #eaecff, rgba(235, 233, 255, 0.7)) !important;
+    box-shadow: 0 0 3px 1px rgb(119 108 229 / 70%) !important;
+    color: #7367f0 !important;
+    font-weight: bold !important;
+}
+.main-menu.menu-light .navigation > li ul .active > a {
+    color: #fff;
+    color: #7367f0 !important;
+}
+.main-menu.menu-light .navigation > li > a {
+    margin: 0 15px 0px 3px !important;
+}
+.main-menu.menu-light .navigation > li > ul li:not(.has-sub) {
+    margin: 0px 0px 0px 15px !important;
+}
+
+.main-menu.menu-light .navigation > li > ul li:first-of-type {
+    margin-top: 3px !important;
+}
+.header-navbar.navbar-shadow {
+    box-shadow: none !important;
+}
+.vertical-layout.vertical-menu-modern.menu-expanded .main-menu {
+    background: #7367f0 !important;
+}
+.main-menu.menu-light .navigation {
+    background: #7367f0 !important;
+}
+.main-menu.menu-light .navigation > li.active > a{
+    background: linear-gradient(
+            118deg, #eaecff, rgb(235 233 255 / 70%)) !important;
+    box-shadow: 0 0 3px 1px rgb(119 108 229 / 70%) !important;
+    color: #7367f0 !important;
+    font-weight: bold !important;
+}
+.main-menu.menu-light .navigation li a {
+    color: #ffffff !important;
+}
+.main-menu .navbar-header .navbar-brand .brand-text {
+    color: #ffffff !important;
+}
+.navbar-light {
+    background: #7367f0 !important;
+}
+.header-navbar.floating-nav {
+    margin: 0.3rem auto 0 !important;
+}
+.header-navbar .navbar-container ul.navbar-nav li > a.nav-link {
+    color: #ffffff !important;
+}
+html .content.app-content {
+    padding: calc(2rem + 2.2rem + 1.3rem) 2rem 0 !important;
+}
+.main-menu .shadow-bottom{
+    background: linear-gradient(#7367f0 6%, rgba(255, 255, 255, 0.11) 9%, rgba(255, 255, 255, 0)) !important;
+}
+.navbar-floating .header-navbar-shadow{
+    background: none !important;
+    height: 67px !important;
+}
+.main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a, .main-menu.menu-light .navigation > li.sidebar-group-active > a {
+    color: #565360;
+    background: linear-gradient(
+            118deg
+        , #eaecff, rgba(235, 233, 255, 0.7)) !important;
+    border-radius: 6px;
+    color: #7367f0 !important;
+    font-weight: bold !important;
+}
+.main-menu.menu-light .navigation > li > ul li:first-of-type {
+    margin-top: 3px !important;
+}
+li.nav-item.has-sub.open {
+    margin-top: 3px !important;
+}
+
+
+.main-menu.menu-light .navigation > li ul li > a {
+    padding: 8px 15px 8px 20px !important;
+}
+.main-menu .navbar-header {
+    padding: 0rem 0rem 0rem 0.54rem;
+}
+.main-menu .navbar-header .navbar-brand {
+    margin-top: 10px !important;
+}
+.badge.badge-light-danger {
+    background-color: rgb(172 192 255 / 9%) !important;
+    color: #cfc4ffc4 !important;
+}

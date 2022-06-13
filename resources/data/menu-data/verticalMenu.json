@@ -1,0 +1,239 @@
+{
+    "menu": [
+        {
+            "url": "institute/institute-list",
+            "name": "01-Institutes",
+            "icon": "home",
+            "slug": "institute/institute-list"
+        },
+        {
+          "url": "revenue/revenue-list",
+          "name": "02-Revenue Source",
+          "icon": "chevrons-right",
+          "slug": "revenue/revenue-list"
+        },
+        {
+            "url": "billing/billing-list",
+            "name": "03-Billing Department",
+            "icon": "chevrons-right",
+            "slug": "billing/billing-list"
+        },
+        {
+          "url": "shop-type/shop-type-list",
+          "name": "04-Flat Type",
+          "icon": "chevrons-right",
+          "slug": "shop-type/shop-type-list"
+      },{
+          "url": "user-type/user-type-list",
+          "name": "05-User Type",
+          "icon": "chevrons-right",
+          "slug": "user-type/user-type-list"
+      },
+        {
+            "url": "admin-user/admin-user-list",
+            "name": "06-Admin",
+            "icon": "chevrons-right",
+            "slug": "admin-user/admin-user-list"
+        },
+      {
+          "url": "user-info/user-info-list",
+          "name": "07-User Info",
+          "icon": "chevrons-right",
+          "slug": "user-info/user-info-list"
+      },
+      {
+          "url": "revenue-head/revenue-head-list",
+          "name": "08-Revenue Head",
+          "icon": "chevrons-right",
+          "slug": "revenue-head/revenue-head-list"
+      },
+      {
+          "url": "bill-month-info/bill-month-info-list",
+          "name": "09-Bill Cycle",
+          "icon": "chevrons-right",
+          "slug": "bill-month-info/bill-month-info-list"
+      },
+      {
+          "url": "shop-info/shop-info-list",
+          "name": "10-Flat Info",
+          "icon": "chevrons-right",
+          "slug": "shop-info/shop-info-list"
+      },
+      {
+          "url": "shop-rate-info/shop-rate-info-list",
+          "name": "11-Flat Rate Info",
+          "icon": "chevrons-right",
+          "slug": "shop-rate-info/shop-rate-info-list"
+      },
+      {
+          "url": "shop/mapping/mapping-list",
+          "name": "12-Flat Mapping",
+          "icon": "chevrons-right",
+          "slug": "shop/mapping/mapping-list"
+      },
+      {
+          "url": "meter-reading/meter-reading-common-master",
+          "name": "13-Common Meter Master",
+          "icon": "chevrons-right",
+          "slug": "meter-reading/meter-reading-common-master"
+      },
+        {
+            "url": "rate/various-rate-info",
+            "name": "13A-Various Rate",
+            "icon": "chevrons-right",
+            "slug": "rate/various-rate-info"
+        },
+        {
+            "url": "bill-generate/month-wise-bill-list",
+            "name": "14-Bill Generate",
+            "icon": "chevrons-right",
+            "slug": "bill-generate/month-wise-bill-list"
+        },
+        {
+            "name": "15-Meter Reading",
+            "icon": "activity",
+            "slug": "",
+            "badge": "4",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "meter-reading/meter-reading-list",
+                    "name": "15A-Generate Meter Reading",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-list"
+                },
+                {
+                    "url": "meter-reading/meter-reading-update",
+                    "name": "15B-Update Meter Reading",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-update"
+                },
+                {
+                    "url": "meter-reading/meter-reading-publish",
+                    "name": "15C-Publish Meter Reading",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-publish"
+                },
+                {
+                    "url": "meter-reading/meter-reading-publish-common-area",
+                    "name": "15D-MR Publish Common Area",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-publish-common-area"
+                }
+            ]
+        },
+        {
+            "name": "Report",
+            "icon": "file",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "report/user-payment",
+                    "name": "01-User Payment",
+                    "icon": "chevrons-right",
+                    "slug": "report/user-payment"
+                },
+                {
+                    "url": "report/online-settlement",
+                    "name": "02-Settlement - Online",
+                    "icon": "chevrons-right",
+                    "slug": "report/online-settlement"
+                },
+                {
+                    "url": "report/payment-realization",
+                    "name": "03-Pay Realization",
+                    "icon": "chevrons-right",
+                    "slug": "report/payment-realization"
+                },
+                {
+                    "url": "report/meter-reading-bill",
+                    "name": "04-MR Bill Report",
+                    "icon": "chevrons-right",
+                    "slug": "report/meter-reading-bill"
+                },
+                {
+                    "url": "electric_bill_report_by_meter_view",
+                    "name": "EB by Meter",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_report_by_meter_view"
+                },{
+                    "url": "electric_bill_report_download",
+                    "name": "EB Generate",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_report_download"
+                },
+                {
+                    "url": "shop_owner_details",
+                    "name": "001-Flat List",
+                    "icon": "chevrons-right",
+                    "slug": "shop_owner_details"
+                },{
+                    "url": "shop_owner_without_owner",
+                    "name": "002-Flat List Without Owner",
+                    "icon": "chevrons-right",
+                    "slug": "shop_owner_without_owner"
+                },{
+                    "url": "shop_owner_without_paymaster",
+                    "name": "003-Flat List Without Pay Master",
+                    "icon": "chevrons-right",
+                    "slug": "shop_owner_without_paymaster"
+                },{
+                    "url": "electric_bill_month_wise_view",
+                    "name": "004A-EB Common by Monthwise",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_month_wise_view"
+                },{
+                    "url": "electric_bill_common_month_shop_wise_view",
+                    "name": "004B-EB Common by Monthwise",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_common_month_shop_wise_view"
+                },
+                {
+                    "url": "electric_bill_shop_wise_view_shop",
+                    "name": "005A-EB Flat by Monthwise",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_shop_wise_view_shop"
+                },
+                {
+                    "url": "electric_bill_shop_wise_view",
+                    "name": "005B-EB Flat by Monthwise",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_shop_wise_view"
+                },
+                {
+                    "url": "electric_bill_check_view",
+                    "name": "006-Meter Reading Checking",
+                    "icon": "chevrons-right",
+                    "slug": "electric_bill_check_view"
+                },{
+                    "url": "month_wise_sena_market_revenue_view",
+                    "name": "011-Month Wise Sena Market Revenue",
+                    "icon": "chevrons-right",
+                    "slug": "month_wise_sena_market_revenue_view"
+                },{
+                    "url": "nomuna_chak",
+                    "name": "নমুনা ছক",
+                    "icon": "chevrons-right",
+                    "slug": "nomuna_chak"
+                }
+            ]
+        },
+        {
+            "url": "settlement/settlement-list",
+            "name": "Settlement",
+            "icon": "briefcase",
+            "slug": "settlement/settlement-list"
+        },
+        {
+            "url": "otp/otp-create",
+            "name": "Counter Payment",
+            "icon": "globe",
+            "slug": "otp/otp-create"
+        }
+
+
+
+    ]
+  }

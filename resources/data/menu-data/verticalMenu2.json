@@ -1,0 +1,194 @@
+{
+    "menu": [
+        {
+            "url": "institute/institute-list",
+            "name": "Institutes",
+            "icon": "home",
+            "slug": "institute/institute-list"
+        },
+        
+  
+        {
+            "name": "Shop",
+            "icon": "shopping-cart",
+            "slug": "",
+            "badge": "4",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "shop-type/shop-type-list",
+                    "name": "Shop Type",
+                    "icon": "chevrons-right",
+                    "slug": "shop-type/shop-type-list"
+                },
+                {
+                    "url": "shop-info/shop-info-list",
+                    "name": "Shop Info",
+                    "icon": "chevrons-right",
+                    "slug": "shop-info/shop-info-list"
+                },
+                {
+                    "url": "shop-rate-info/shop-rate-info-list",
+                    "name": "Shop Rate Info",
+                    "icon": "chevrons-right",
+                    "slug": "shop-rate-info/shop-rate-info-list"
+                },
+                {
+                    "url": "shop/mapping/mapping-list",
+                    "name": "Shop Mapping",
+                    "icon": "chevrons-right",
+                    "slug": "shop/mapping/mapping-list"
+                }
+  
+            ]
+        },
+        {
+            "name": "Revenue",
+            "icon": "git-pull-request",
+            "slug": "",
+            "badge": "2",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "revenue/revenue-list",
+                    "name": "Revenue Source",
+                    "icon": "chevrons-right",
+                    "slug": "revenue/revenue-list"
+                },
+                {
+                    "url": "revenue-head/revenue-head-list",
+                    "name": "Revenue Head",
+                    "icon": "chevrons-right",
+                    "slug": "revenue-head/revenue-head-list"
+                }
+            ]
+        },
+        {
+            "name": "User",
+            "icon": "users",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "user-info/user-info-list",
+                    "name": "User Info",
+                    "icon": "chevrons-right",
+                    "slug": "user-info/user-info-list"
+                },
+                {
+                    "url": "user-type/user-type-list",
+                    "name": "User Type",
+                    "icon": "chevrons-right",
+                    "slug": "user-type/user-type-list"
+                },
+                {
+                    "url": "admin-user/admin-user-list",
+                    "name": "Admin",
+                    "icon": "chevrons-right",
+                    "slug": "admin-user/admin-user-list"
+                }
+            ]
+        },
+        {
+            "name": "Bill",
+            "icon": "trello",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "bill-generate/month-wise-bill-list",
+                    "name": "Year Wise TAX",
+                    "icon": "chevrons-right",
+                    "slug": "bill-generate/month-wise-bill-list"
+                },
+                {
+                    "url": "bill-month-info/bill-month-info-list",
+                    "name": "Bill Cycle",
+                    "icon": "chevrons-right",
+                    "slug": "bill-month-info/bill-month-info-list"
+                },
+                {
+                    "url": "billing/billing-list",
+                    "name": "Billing Department",
+                    "icon": "chevrons-right",
+                    "slug": "billing/billing-list"
+                }
+                
+            ]
+        },
+        {
+            "name": "Report",
+            "icon": "file",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "report/user-payment",
+                    "name": "User Payment",
+                    "icon": "chevrons-right",
+                    "slug": "report/user-payment"
+                },
+                {
+                    "url": "report/online-settlement",
+                    "name": "Online Settlement",
+                    "icon": "chevrons-right",
+                    "slug": "report/online-settlement"
+                },
+                {
+                    "url": "report/payment-realization",
+                    "name": "Payment Realization",
+                    "icon": "chevrons-right",
+                    "slug": "report/payment-realization"
+                }
+            ]
+        },
+        {
+            "name": "Meter Reading",
+            "icon": "activity",
+            "slug": "",
+            "badge": "3",
+            "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+            "submenu": [
+                {
+                    "url": "meter-reading/meter-reading-list",
+                    "name": "Generate Meter Reading",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-list"
+                },
+                {
+                    "url": "meter-reading/meter-reading-update",
+                    "name": "Meter Reading Update",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-update"
+                },
+                {
+                    "url": "meter-reading/meter-reading-publish",
+                    "name": "Publish Meter Reading",
+                    "icon": "chevrons-right",
+                    "slug": "meter-reading/meter-reading-publish"
+                }
+            ]
+        },
+        {
+            "url": "settlement/settlement-list",
+            "name": "Settlement",
+            "icon": "briefcase",
+            "slug": "settlement/settlement-list"
+        },
+        {
+            "url": "otp/otp-list",
+            "name": "Counter Payment",
+            "icon": "globe",
+            "slug": "otp/otp-list"
+        }
+  
+  
+  
+    ]
+  }
+  
+
+

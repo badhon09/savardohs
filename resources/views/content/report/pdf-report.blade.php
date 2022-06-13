@@ -1,0 +1,13 @@
+@if($action == 'user')
+    @livewire("report.pdf-user-payment",['paymentID' => $paymentID])
+@elseif($action == 'settlement')
+    @livewire("report.online-settlement-report")
+@elseif($action == 'realization')
+    @livewire("report.payment-realization-report")
+@elseif($action == 'meterBill')
+    @livewire("report.pdf-meter-bill-view")    
+@elseif($action == 'pdfSettlement')
+    @livewire("report.pdf-online-settlement-report")    
+@elseif($action == 'pdfRealization')
+    @livewire("report.pdf-payment-realization-report")    
+@endif

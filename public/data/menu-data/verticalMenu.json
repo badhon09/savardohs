@@ -1,0 +1,143 @@
+{
+  "menu": [
+      {
+          "url": "institute/institute-list",
+          "name": "Institutes Info",
+          "icon": "grid",
+          "slug": "institute/institute-list"
+      },
+      {
+          "name": "Flat Info",
+          "icon": "box",
+          "slug": "",
+          "badge": "4",
+          "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+          "submenu": [
+              {
+                  "url": "shop-type/shop-type-list",
+                  "name": "Flat Type",
+                  "icon": "chevrons-right",
+                  "slug": "shop-type/shop-type-list"
+              },
+              {
+                  "url": "shop-info/shop-info-list",
+                  "name": "Flat Info",
+                  "icon": "chevrons-right",
+                  "slug": "shop-info/shop-info-list"
+              },
+              {
+                  "url": "shop-rate-info/shop-rate-info-list",
+                  "name": "Flat Rate Info",
+                  "icon": "chevrons-right",
+                  "slug": "shop-rate-info/shop-rate-info-list"
+              },
+              {
+                  "url": "shop/mapping/mapping-list",
+                  "name": "Flat Mapping",
+                  "icon": "chevrons-right",
+                  "slug": "shop/mapping/mapping-list"
+              }
+
+          ]
+      },
+      {
+          "name": "Revenue Info",
+          "icon": "git-pull-request",
+          "slug": "",
+          "badge": "2",
+          "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+          "submenu": [
+              {
+                  "url": "revenue/revenue-list",
+                  "name": "Revenue Source",
+                  "icon": "chevrons-right",
+                  "slug": "revenue/revenue-list"
+              },
+              {
+                  "url": "revenue-head/revenue-head-list",
+                  "name": "Revenue Head",
+                  "icon": "chevrons-right",
+                  "slug": "revenue-head/revenue-head-list"
+              }
+          ]
+      },
+      {
+          "name": "User Info",
+          "icon": "users",
+          "slug": "",
+          "badge": "2",
+          "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+          "submenu": [
+              {
+                  "url": "user-info/user-info-list",
+                  "name": "User Info",
+                  "icon": "chevrons-right",
+                  "slug": "user-info/user-info-list"
+              },
+              {
+                  "url": "user-type/user-type-list",
+                  "name": "User Type",
+                  "icon": "chevrons-right",
+                  "slug": "user-type/user-type-list"
+              }
+          ]
+      },
+      {
+          "name": "Bill Info",
+          "icon": "trello",
+          "slug": "",
+          "badge": "2",
+          "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+          "submenu": [
+              {
+                  "url": "bill-generate/month-wise-bill-list",
+                  "name": "Year Wise TAX",
+                  "icon": "chevrons-right",
+                  "slug": "bill-generate/month-wise-bill-list"
+              },
+              {
+                  "url": "bill-month-info/bill-month-info-list",
+                  "name": "Bill Month Info",
+                  "icon": "chevrons-right",
+                  "slug": "bill-month-info/bill-month-info-list"
+              }
+          ]
+      },
+      {
+          "name": "_Other",
+          "icon": "trash",
+          "slug": "",
+          "badge": "4",
+          "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+          "submenu": [
+              {
+                  "url": "payment-master/payment-master-list",
+                  "name": "Payment - Master",
+                  "icon": "chevrons-right",
+                  "slug": "payment-master/payment-master-list"
+              },
+              {
+                  "url": "payment-child/payment-child-list",
+                  "name": "Payment - Child",
+                  "icon": "chevrons-right",
+                  "slug": "payment-child/payment-child-list"
+              },
+              {
+                  "url": "bill-master/bill-master-list",
+                  "name": "Bill - Master",
+                  "icon": "chevrons-right",
+                  "slug": "bill-master/bill-master-list"
+              },
+              {
+                  "url": "bill-child/bill-child-list",
+                  "name": "Bill - Child",
+                  "icon": "chevrons-right",
+                  "slug": "bill-child/bill-child-list"
+              }
+          ]
+      }
+
+
+
+  ]
+}
